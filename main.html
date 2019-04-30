@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- /***********************************************************************;
+* Project           : Busescool 
+*
+* Program name      : main.html
+*
+* Author            : 
+*
+* Date created      : 
+*
+* Purpose           : 
+*
+* Revision History  : 
+|**********************************************************************/ -->
+<html>
+
+<head>
+    <link rel="icon" href="/media/logos/logo_logrit.png">
+    <title>Busescool Test</title>
+
+    <!-- Special characters -->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <!-- Styles and Fonts-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Third party scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!-- Scripts -->
+    <script src="/scripts/main.js"> </script> <!-- MAIN SCRIPT -->
+    <!-- ... -->
+
+    <!-- Modules -->
+    <!-- ... -->
+</head>
+
+
+<body onload="">
+
+    <!-- Upper navigation bar -->
+    <div class="row z-depth-1" style="background-color:white; height: auto; padding-top: 10px; position:relative;">
+        <div class="col hide-on-small-only">
+            <img src="/media/logos/logo_logrit.png" width="80px">
+        </div>
+
+        <div class="col hide-on-small-only" style="text-align: left">
+            <h4 style="color:gray;">Prueba</h4>
+        </div>
+
+        <!-- TO-DO: Intanciate and configure autocomplete to search for specific students -->
+        <div class="input-field col s6 m4 l4" style="color:#ffffff;">
+            <input type="text" id="autocomplete-input" class="autocomplete">
+            <label for="autocomplete-input">Selecciona estudiante:</label>
+        </div>
+
+        
+
+    </div>
+
+    <!-- Main Container -->
+    <div class="row container" id="mainContainer">
+        <div class="row no-margin no-pad">
+            <h5 style="margin-left:13px;">Filtrar por:</h5>
+            <div class="col s12 pad-min-tb">
+                <!-- Filter Buttons -->
+
+                <!-- TO-DO: Implement onclick callback to filter students -->
+                <a id="male_filter_btn" onclick="" class="waves-effect waves-teal btn-small"><i
+                        class="material-icons left">wc</i>Hombres</a>
+                <a id="female_filter_btn" onclick="" class="waves-effect waves-teal btn-small"><i
+                    class="material-icons left">wc</i>Mujeres</a>
+                <a id="remove_filters_btn" onclick="" class="waves-effect waves-teal btn-small btn-floating"><i
+                        class="material-icons left">cancel</i></a>
+
+            </div>
+        </div>
+
+        <table id="students_table" class="highlight" style="width:100%">
+            <tr>
+                <th>Id</th>
+                <th>Nombres</th>
+                <th>Apellidos</th>
+                <th>Ruta AM</th>
+                <th>Ruta PM</th>
+                <th>Genero</th>
+            </tr>
+        </table>
+    
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+
+
+</html>
