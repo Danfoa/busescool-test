@@ -1,3 +1,5 @@
+![logo_completo](https://user-images.githubusercontent.com/8356912/57099764-d4328480-6ce2-11e9-8313-c1192cdbdb35.jpg)
+
 # Prueba de programación para Busescool 
 
 Bienvenidos reclutas de Busescool.
