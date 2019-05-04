@@ -2,7 +2,7 @@
 
 # Prueba de programación para Busescool 
 
-Bienvenidos reclutas de Busescool.
+Bienvenidos a Busescool.
 
 En este repositorio se encuentra una prueba que pretende demostrar su conocimiento en desarrollo de software.
 
