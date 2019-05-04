@@ -27,9 +27,11 @@ En este repositorio encontrara el archivo `/database/students.json` el cual cont
 Se recomienda utilizar el script `/scripts/main.js` como archivo principal para contener el codigo a desarrollar, Sin embargo el desarrollador podra crear cuantos scripts, modulos, clases y funciones como encuentre necesario.
 
 ### Bonus 
-Configurar la herramienta para la barra de búsqueda, para facilitar la búsqueda de estudiantes particulares.
+- Configurar la herramienta para la barra de búsqueda, que facilite la búsqueda de estudiantes particulares por nombres o códigos.
 
 En dado caso que el usuario seleccione un estudiante especifico en el buscador, la tabla principal deberá actualizarse para mostrar únicamente este estudiante, y el botón de eliminar filtros (paso 2) deberá revertir este comportamiento.
+
+- Incluir una herramienta para filtrar por el curso de los estudiantes (`studentGroup`)
 
 ---------------------
 
