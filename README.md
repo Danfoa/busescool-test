@@ -1,8 +1,8 @@
 ![logo_completo](https://user-images.githubusercontent.com/8356912/57099764-d4328480-6ce2-11e9-8313-c1192cdbdb35.jpg)
 
-# Prueba de programación para Busescool 
+# Prueba de programación para Bus esCool 
 
-Bienvenidos a Busescool.
+Bienvenidos a Bus esCool.
 
 En este repositorio se encuentra una prueba que pretende demostrar su conocimiento en desarrollo de software.
 
@@ -27,14 +27,9 @@ En este repositorio encontrara el archivo `/database/students.json` el cual cont
 Se recomienda utilizar el script `/scripts/main.js` como archivo principal para contener el codigo a desarrollar, Sin embargo el desarrollador podra crear cuantos scripts, modulos, clases y funciones como encuentre necesario.
 
 ### Bonus 
-Configurar la herramienta de autocompletar, también conocido como buscador, para facilitar la búsqueda de estudiantes particulares.
+Configurar la herramienta para la barra de búsqueda, para facilitar la búsqueda de estudiantes particulares.
 
 En dado caso que el usuario seleccione un estudiante especifico en el buscador, la tabla principal deberá actualizarse para mostrar únicamente este estudiante, y el botón de eliminar filtros (paso 2) deberá revertir este comportamiento.
-
-![Screen Shot 2019-04-30 at 12 39 51 AM](https://user-images.githubusercontent.com/8356912/56942468-864e2e80-6ae0-11e9-82c4-09d49e416c75.png)
-
-
-Información sobre este paso se encuentra [aquí] (https://materializecss.com/autocomplete.html)
 
 ---------------------
 
