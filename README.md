@@ -39,3 +39,5 @@ En dado caso que el usuario seleccione un estudiante especifico en el buscador, 
 3. Seguir las guias de programación de [google](https://google.github.io/styleguide/jsguide.html).
 4. Optimizar memoria, complejidad de algoritmos, y tiempo de operación.
 5. Es valido utilizar recursos de [JQuery](https://jquery.com/) y [Materialize](https://materializecss.com/). Aunque no son necesarios.
+
+Exitos
